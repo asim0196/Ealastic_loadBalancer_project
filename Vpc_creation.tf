@@ -96,7 +96,7 @@ resource "aws_route_table_association" "subnetassociate" {
 }
 
 ########## subnet association 2 ####
-resource "aws_route_table_association" "subnetassociate2" {
+resource "aws_route_table_association" "subnetassociate222" {
   subnet_id      = aws_subnet.subnet2.id
   route_table_id = aws_route_table.RT.id
 }
